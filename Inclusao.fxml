@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+   <children>
+      <BorderPane prefHeight="303.0" prefWidth="400.0">
+         <top>
+            <BorderPane BorderPane.alignment="CENTER">
+               <center>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro de Usuario" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets top="30.0" />
+                     </BorderPane.margin>
+                  </Text>
+               </center>
+            </BorderPane>
+         </top>
+         <left>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Usuário:" BorderPane.alignment="TOP_RIGHT">
+               <BorderPane.margin>
+                  <Insets left="10.0" top="40.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+         <center>
+            <TextField maxWidth="-Infinity" minHeight="-Infinity" prefHeight="27.0" prefWidth="264.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="160.0" />
+               </BorderPane.margin>
+            </TextField>
+         </center>
+      </BorderPane>
+      <Text layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" x="15.0" />
+   </children>
+</AnchorPane>
